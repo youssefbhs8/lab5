@@ -1,13 +1,21 @@
 const profiles = [ {
-  name: 'Imen' },
+  name: 'Imen',
+  age: '37'
+ },
   {
-  name: 'Aymen'
+  name: 'Aymen',
+  age: '22'
   }, {
-  name: 'Feres' },
+  name: 'Feres',
+  age: '29'
+},
   {
-  name: 'Nadia'
+  name: 'Nadia',
+  age: '16'
   }, {
-  name: 'Mohamed' }
+  name: 'Mohamed',
+  age: '18'
+ }
   ];
 
   exports.seed = function (knex) { 
